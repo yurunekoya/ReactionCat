@@ -48,8 +48,7 @@
     /* リアクションボタン（ハートボタン）を非表示 */
     #reaction-control-panel,
     yt-reaction-control-panel-view-model,
-    yt-reaction-control-panel-overlay-view-model,
-    #picker-buttons { display: none !important; }
+    yt-reaction-control-panel-overlay-view-model > #reaction-control-panel { display: none !important; }
     
     /* リアクション噴水 - 猫より上のレイヤー */
     #emoji-fountain,
