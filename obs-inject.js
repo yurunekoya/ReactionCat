@@ -45,6 +45,12 @@
     #avatar, #input-container, #right > #count-container,
     #right > #message-buttons { display: none !important; }
     
+    /* リアクションボタン（ハートボタン）を非表示 */
+    #reaction-control-panel,
+    yt-reaction-control-panel-view-model,
+    yt-reaction-control-panel-overlay-view-model,
+    #picker-buttons { display: none !important; }
+    
     /* リアクション噴水 - 猫より上のレイヤー */
     #emoji-fountain,
     #emoji-fountain * {
