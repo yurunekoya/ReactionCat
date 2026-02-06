@@ -1,0 +1,12 @@
+# Node.js
+node_modules/
+
+# Booth distribution packages (local only, not published to GitHub)
+ReactionCat_Booth_*/
+
+# Build output
+*.exe
+
+# Misc
+.DS_Store
+Thumbs.db
