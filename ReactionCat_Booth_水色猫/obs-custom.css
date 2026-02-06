@@ -1,0 +1,48 @@
+/* ReactionCat - OBS カスタムCSS（確定版）
+ * OBSブラウザソースのカスタムCSS欄に貼り付けてください
+ * ブラウザソースサイズ: 1920x1080
+ */
+
+* {
+    background: rgba(0, 0, 0, 0) !important;
+    border: none !important
+}
+
+#emoji-fountain {
+    position: absolute !important;
+    transform: scale(4) !important
+}
+
+#explanation #emoji-fountain {
+    transform: translateY(1080px) scale(5) !important
+}
+
+body> :not(yt-live-chat-app):not(#reaction-cat-container),
+yt-live-chat-app> :not(#contents),
+#content>yt-live-chat-renderer> :not(#content-pages),
+#content-pages> :not(#chat-messages),
+#chat-messages> :not(#contents),
+#chat-messages>#contents> :not(#panel-pages),
+#panel-pages> :not(#input-panel),
+#input-panel>yt-live-chat-message-input-renderer> :not(#container) {
+    display: none !important
+}
+
+#container>not:(#top) {
+    display: none !important
+}
+
+#avater,
+#input-container,
+#right>#count-container,
+#right>#message-buttons,
+#right>#picker-buttons>yt-live-chat-icon-toggle-button-renderer,
+#right>#picker-buttons>yt-reaction-control-panel-overlay-view-model>#reaction-control-panel {
+    display: none !important
+}
+
+#explanation> :not(#picker-buttons),
+#picker-buttons>yt-live-chat-icon-toggle-button-renderer,
+#picker-buttons>yt-reaction-control-panel-overlay-view-model>#reaction-control-panel {
+    display: none !important
+}
